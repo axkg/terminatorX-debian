@@ -1,0 +1,3 @@
+?package(terminatorx):needs="X11" section="Apps/Sound"\
+  title="terminatorX" command="/usr/bin/terminatorX" \
+  icon="/usr/share/pixmaps/terminatorX-app.xpm"

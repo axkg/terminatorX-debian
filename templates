@@ -1,0 +1,11 @@
+Template: terminatorx/suid_bin
+Type: boolean
+Default: false
+_Description: Install terminatorX SUID root so it can use realtime scheduling?
+ TerminatorX now supports installation of its binary SUID root.  This
+ allows it to run in a realtime scheduled priority thereby greatly
+ improving performance.  However, it is generally a good idea to minimize
+ the number of SUID programs on your machine to avoid security risks.
+ .
+ If you are installing this on your personal desktop with only 1 user, it
+ should be fairly safe to accept here. If in doubt, refuse.

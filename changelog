@@ -1,0 +1,145 @@
+terminatorx (3.82-2) unstable; urgency=low
+
+  * Added Czech debconf translation from Miroslav Kure
+    (Closes: 293001) 
+
+ -- Mike Furr <mfurr@debian.org>  Wed,  2 Feb 2005 14:08:14 -0500
+
+terminatorx (3.82-1) unstable; urgency=low
+
+  * New upstream release. 
+
+ -- Mike Furr <mfurr@debian.org>  Wed,  3 Nov 2004 20:29:13 -0500
+
+terminatorx (3.81-10) unstable; urgency=low
+
+  * Added japanese debconf translation (Closes: 270675)
+    Thanks to Hideki Yamane
+
+ -- Mike Furr <mfurr@debian.org>  Sun, 12 Sep 2004 20:32:05 -0400
+
+terminatorx (3.81-9) unstable; urgency=low
+
+  * dpatch-ification!
+  * Added patch to build with gcc-3.4 (Closes: 259788)
+    Thanks to Andreas Jochens
+  * Changed menu pic to xpm format per menu policy.
+
+ -- Mike Furr <mfurr@debian.org>  Wed, 11 Aug 2004 10:36:14 -0400
+
+terminatorx (3.81-8) unstable; urgency=low
+
+  * added --enable-suidroot flag to configure, to allow terminatorX
+    to be run as root(for jackd performance). (Closes: 244154)
+  * quoated the needs and section fields of the menu file
+  * updated standands to 3.6.1
+
+ -- Mike Furr <mfurr@debian.org>  Mon, 26 Apr 2004 21:20:09 -0400
+
+terminatorx (3.81-7) unstable; urgency=low
+
+  * Uh, helps to depend on libjack0.80.0-dev 8-) 
+
+ -- Mike Furr <mfurr@debian.org>  Sat, 17 Jan 2004 14:22:36 -0500
+
+terminatorx (3.81-6) unstable; urgency=low
+
+  * recompiled against libjack0.80.0-dev 
+
+ -- Mike Furr <mfurr@debian.org>  Fri, 16 Jan 2004 11:18:59 -0500
+
+terminatorx (3.81-5) unstable; urgency=low
+
+  * Added build-dep on libcap-dev so the binary will be built
+    with capabilities support.  (Closes: 214716)
+
+ -- Mike Furr <mfurr@debian.org>  Wed,  8 Oct 2003 14:27:53 -0400
+
+terminatorx (3.81-4) unstable; urgency=low
+
+  * Added a Suggests on ladspa-plugin (Closes: 208993)
+
+ -- Mike Furr <mfurr@debian.org>  Tue,  7 Oct 2003 23:26:33 -0400
+
+terminatorx (3.81-3) unstable; urgency=low
+
+  * Big-endian compile fixes. 
+
+ -- Mike Furr <mfurr@debian.org>  Thu,  4 Sep 2003 22:59:11 -0400
+
+terminatorx (3.81-2) unstable; urgency=low
+
+  * Added depends on scrollkeeper. (Closes: 208615) 
+
+ -- Mike Furr <mfurr@debian.org>  Wed,  3 Sep 2003 22:04:37 -0400
+
+terminatorx (3.81-1) unstable; urgency=low
+
+  * New Upstream release (Closes: 195904)
+    - This includes a change in suid behavior to use posix
+    -  capabilities and thus drops root really early.
+  * New build-deps on:
+    - zlib, libasound2 (alsa support), scrollkeeper, librldr0
+    - libjack-0.71.2-dev
+  * Properly call scrollkeeper-update from post{inst,rm}
+  * Switched to gettext format for templates (po-debconf)
+    - Bumped debhelper dep to >= 4.1.16
+    - Closes: 201516
+  * Added French Translation of the templates. 
+    - Closes: 201804
+    - Thanks to Michel Grentzinger for the both the above patches.
+
+ -- Mike Furr <mfurr@debian.org>  Mon, 27 Aug 2003 23:36:25 -0400
+
+terminatorx (3.73-5) unstable; urgency=high
+
+  * Fixed environment handling for the 'HOME' variable to protect
+    against buffer overflows(see 200658).  XLOCALEDIR problem is
+    actually in xfree, not us(see 201750).
+  * Changed default of suid debconf question to 'No'
+    (what *was* I thinking?)
+
+ -- Mike Furr <mfurr@debian.org>  Thu, 17 Jul 2003 10:59:24 -0400
+
+terminatorx (3.73-4) unstable; urgency=low
+
+  * Rebuilt against libvorbis0a (Closes: 185546) 
+
+ -- Mike Furr <mfurr@debian.org>  Sun, 30 Mar 2003 16:12:41 -0500
+
+terminatorx (3.73-3) unstable; urgency=low
+
+  * Okay, really fixed 178302 this time by overriding
+    gnome detection but without the build-dep.
+  * Pkg now uses upstream man page.
+
+ -- Mike Furr <mfurr@debian.org>  Sat, 25 Jan 2003 18:09:09 -0500
+
+terminatorx (3.73-2) unstable; urgency=low
+
+  * Fixed icon name in menu entry 
+  * Small fix to compile under gcc-3.2
+  * Fixed gnome files being put in wrong directory
+    (Should close bug 178302, will check autobuilders)
+
+ -- Mike Furr <mfurr@debian.org>  Sat, 25 Jan 2003 12:33:26 -0400
+
+terminatorx (3.73-1) unstable; urgency=low
+
+  * New upstream release
+  * Added debconf question setuid
+
+ -- Mike Furr <mfurr@debian.org>  Sun, 29 Sep 2002 16:34:57 -0400
+
+terminatorx (3.72-2) unstable; urgency=low
+
+  * Fixed big endian compile problems 
+
+ -- Mike Furr <mfurr@debian.org>  Sat,  7 Sep 2002 15:43:12 -0400
+
+terminatorx (3.72-1) unstable; urgency=low
+
+  * Initial Release (closes: 156924)
+
+ -- Mike Furr <mfurr@debian.org>  Sat, 24 Aug 2002 13:28:50 -0400
+

@@ -1,0 +1,59 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: terminatorx 3.81-9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-09-09 00:46+0900\n"
+"PO-Revision-Date: 2004-08-31 20:53+0900\n"
+"Last-Translator: Hideki Yamane <henrich@samba.gr.jp>\n"
+"Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=EUC-JP\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:4
+msgid "Install terminatorX SUID root so it can use realtime scheduling?"
+msgstr ""
+"リアルタイムスケジューリングを使えるようにするため、terminatorX を root に"
+"SUID してインストールしますか?"
+
+#. Type: boolean
+#. Description
+#: ../templates:4
+msgid ""
+"TerminatorX now supports installation of its binary SUID root.  This allows "
+"it to run in a realtime scheduled priority thereby greatly improving "
+"performance.  However, it is generally a good idea to minimize the number of "
+"SUID programs on your machine to avoid security risks."
+msgstr ""
+"terminatorX は、バイナリを root に SUID してのインストールをサポートするよう"
+"になりました。これによってリアルタイムスケジューリング動作が可能になり、パ"
+"フォーマンスが非常に改善されます。しかし、セキュリティ的なリスクを避けるた"
+"め、マシン上の SUID されたプログラム数を最小限に抑えるのも大抵の場合は良い考"
+"えでしょう。"
+
+#. Type: boolean
+#. Description
+#: ../templates:4
+msgid ""
+"If you are installing this on your personal desktop with only 1 user, it "
+"should be fairly safe to accept here. If in doubt, refuse."
+msgstr ""
+"ユーザが一名だけの個人デスクトップ環境へインストールするのならば、ここで「は"
+"い」と答えるのは問題ありません。そうではない場合は「いいえ」と答えてくださ"
+"い。"

@@ -1,0 +1,14 @@
+#!/bin/sh 
+
+action=$1
+version=$2
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
+db_version 2.0
+
+
+db_input medium terminatorx/suid_bin || true
+
+db_go || true
+

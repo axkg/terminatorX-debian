@@ -1,0 +1,51 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: terminatorx\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-07-11 09:26+0200\n"
+"PO-Revision-Date: 2005-01-31 17:45+0100\n"
+"Last-Translator: Miroslav Kure <kurem@debian.cz>\n"
+"Language-Team: Czech <provoz@debian.cz>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Description
+#: ../templates:4
+msgid "Install terminatorX SUID root so it can use realtime scheduling?"
+msgstr "Instalovat terminatorX SUID root, aby mohl vyu¾ívat realtime plánování?"
+
+#. Description
+#: ../templates:4
+msgid ""
+"TerminatorX now supports installation of its binary SUID root.  This allows "
+"it to run in a realtime scheduled priority thereby greatly improving "
+"performance.  However, it is generally a good idea to minimize the number of "
+"SUID programs on your machine to avoid security risks."
+msgstr ""
+"TerminatorX podporuje instalaci s nastaveným SUID bitem na roota. To mu "
+"umo¾òuje bìh v realtimové prioritì plánovaèe a tím vy¹¹í výkonnost. Na "
+"druhou stranu je v¾dy dobré mít na poèítaèi co nejménì SUID programù, "
+"abyste pøede¹li bezpeènostním rizikùm."
+
+#. Description
+#: ../templates:4
+msgid ""
+"If you are installing this on your personal desktop with only 1 user, it "
+"should be fairly safe to accept here. If in doubt, refuse."
+msgstr ""
+"Pokud instalujete progam na osobní poèítaè s jediným u¾ivatelem, mìlo by "
+"být bezpeèné souhlasit. Pokud jste na pochybách, zamítnìte."
