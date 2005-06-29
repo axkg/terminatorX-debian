@@ -1,3 +1,10 @@
+terminatorx (3.82-3) unstable; urgency=low
+
+  * Rebuild against libjack0.100.0
+  * Added Italian debconf translation from Luca Bruno (Closes: 316260)
+
+ -- Mike Furr <mfurr@debian.org>  Wed, 29 Jun 2005 15:58:44 -0400
+
 terminatorx (3.82-2) unstable; urgency=low
 
   * Added Czech debconf translation from Miroslav Kure

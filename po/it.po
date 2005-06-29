@@ -1,0 +1,36 @@
+# translation of terminatorx_3.82-2_templates.po to italian
+# Copyright Luca Bruno <luca.br@uno.it>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: terminatorx_3.82-2_templates\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-07-11 09:26+0200\n"
+"PO-Revision-Date: 2005-06-26 20:58+0200\n"
+"Last-Translator: Luca Bruno <luca.br@uno.it>\n"
+"Language-Team:  <tp@lists.linux.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Description
+#: ../templates:4
+msgid "Install terminatorX SUID root so it can use realtime scheduling?"
+msgstr "Installare terminatorX SUID root in modo che possa usare lo scheduling in tempo reale?"
+
+#. Description
+#: ../templates:4
+msgid ""
+"TerminatorX now supports installation of its binary SUID root.  This allows "
+"it to run in a realtime scheduled priority thereby greatly improving "
+"performance.  However, it is generally a good idea to minimize the number of "
+"SUID programs on your machine to avoid security risks."
+msgstr "Adesso teminatorX supporta l'installazione dei propri binari come SUID root. Questo permette la sua esecuzione con priorità di scheduling in tempo reale, garantendo un miglioramento delle prestazioni. Tuttavia è in generale buona pratica minimizzare il numero di programmi SUID sulla propria macchina per evitare rischi di sicurezza."
+
+#. Description
+#: ../templates:4
+msgid ""
+"If you are installing this on your personal desktop with only 1 user, it "
+"should be fairly safe to accept here. If in doubt, refuse."
+msgstr "Se lo si installando sul proprio computer personale con un solo utente, dovrebbe essere abbastanza sicuro accettare. In caso di dubbi, rifiutare."
+
