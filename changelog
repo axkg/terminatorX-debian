@@ -1,3 +1,11 @@
+terminatorx (3.82-4) unstable; urgency=low
+
+  * Rebuild for gxx transition
+  * Added Vietnamese translation thanks to Clytie Siddall
+    (Closes: 320327)
+
+ -- Mike Furr <mfurr@debian.org>  Wed, 21 Sep 2005 00:02:44 -0400
+
 terminatorx (3.82-3) unstable; urgency=low
 
   * Rebuild against libjack0.100.0
