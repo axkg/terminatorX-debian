@@ -1,3 +1,12 @@
+terminatorx (3.82-7) unstable; urgency=low
+
+  * !@!$@# Note to future self, don't use aptitude to install
+    build deps inside of pbuilder >:-(
+  * Added build dep on libxt-dev
+  * Dump config.log on configure failure
+
+ -- Mike Furr <mfurr@debian.org>  Wed, 18 Jan 2006 10:14:23 -0500
+
 terminatorx (3.82-6) unstable; urgency=low
 
   * Oops, need a few more X11 deps

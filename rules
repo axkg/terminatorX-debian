@@ -30,7 +30,8 @@ config.status: patch-stamp configure
                     --enable-mpg123=/usr/bin/mpg321 \
 		    --enable-suidroot --enable-capabilities \
                     gnomedatadir=/usr/share/ \
-                    gnomepresent=yes
+                    gnomepresent=yes \
+	|| (cat config.log && false)
 
 	find -name '*.xml' -exec perl -i -pe 's,http://www.oasis-open.org/docbook/xml/([^/]+)/docbookx.dtd,/usr/share/sgml/docbook/dtd/xml/\1/docbookx.dtd,' {} \;
 
