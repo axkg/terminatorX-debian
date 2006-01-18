@@ -1,3 +1,10 @@
+terminatorx (3.82-5) unstable; urgency=low
+
+  * Changed obsolete xlibs-dev dep to xorg equivalents (Closes: 347080)
+  * Added swedish translation thanks to Daniel Nylander (Closes: 331594)
+
+ -- Mike Furr <mfurr@debian.org>  Tue, 17 Jan 2006 23:32:25 -0500
+
 terminatorx (3.82-4) unstable; urgency=low
 
   * Rebuild for gxx transition
