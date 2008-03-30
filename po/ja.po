@@ -15,8 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: terminatorx 3.81-9\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-09-09 00:46+0900\n"
+"Report-Msgid-Bugs-To: terminatorx@packages.debian.org\n"
+"POT-Creation-Date: 2008-03-19 18:48+0100\n"
 "PO-Revision-Date: 2004-08-31 20:53+0900\n"
 "Last-Translator: Hideki Yamane <henrich@samba.gr.jp>\n"
 "Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../templates:4
+#: ../templates:1001
 msgid "Install terminatorX SUID root so it can use realtime scheduling?"
 msgstr ""
 "リアルタイムスケジューリングを使えるようにするため、terminatorX を root に"
@@ -34,7 +34,7 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../templates:4
+#: ../templates:1001
 msgid ""
 "TerminatorX now supports installation of its binary SUID root.  This allows "
 "it to run in a realtime scheduled priority thereby greatly improving "
@@ -49,7 +49,7 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../templates:4
+#: ../templates:1001
 msgid ""
 "If you are installing this on your personal desktop with only 1 user, it "
 "should be fairly safe to accept here. If in doubt, refuse."

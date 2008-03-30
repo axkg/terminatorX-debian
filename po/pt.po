@@ -1,0 +1,49 @@
+# Portuguese translation of terminatorx's debconf messages.
+# Copyright (C) 2007
+# This file is distributed under the same license as the terminatorx package.
+# Luísa Lourenço <kikentai@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: terminatorx 3.82-7\n"
+"Report-Msgid-Bugs-To: terminatorx@packages.debian.org\n"
+"POT-Creation-Date: 2008-03-19 18:48+0100\n"
+"PO-Revision-Date: 2007-03-30 14:52+0100\n"
+"Last-Translator: Luísa Lourenço <kikentai@gmail.com>\n"
+"Language-Team: Portuguese <traduz@debianpt.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Install terminatorX SUID root so it can use realtime scheduling?"
+msgstr ""
+"Instalar o terminatorX como SUID root para que possa usar escalonamento em "
+"realtime?"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"TerminatorX now supports installation of its binary SUID root.  This allows "
+"it to run in a realtime scheduled priority thereby greatly improving "
+"performance.  However, it is generally a good idea to minimize the number of "
+"SUID programs on your machine to avoid security risks."
+msgstr ""
+"O terminatorX agora suporta a instalação do seu binário como SUID root. Isto "
+"permite corrê-lo numa prioridade de escalonamento de realtime melhorando "
+"muito assim o seu desempenho.  No entanto, é geralmente uma boa ideia "
+"minimizar o número de programas SUID na sua máquina para evitar riscos de "
+"segurança."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If you are installing this on your personal desktop with only 1 user, it "
+"should be fairly safe to accept here. If in doubt, refuse."
+msgstr ""
+"Se está a instalar isto no seu computador pessoal com somente 1 utilizador, "
+"deverá ser seguro aceitar aqui. Em caso de dúvida, recuse."

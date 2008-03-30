@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: terminatorx 3.82-3N\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-07-11 09:26+0200\n"
+"Report-Msgid-Bugs-To: terminatorx@packages.debian.org\n"
+"POT-Creation-Date: 2008-03-19 18:48+0100\n"
 "PO-Revision-Date: 2005-07-28 21:41+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
@@ -16,23 +16,35 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0\n"
 "X-Generator: LocFactoryEditor 1.2.2\n"
 
+#. Type: boolean
 #. Description
-#: ../templates:4
+#: ../templates:1001
 msgid "Install terminatorX SUID root so it can use realtime scheduling?"
-msgstr "Cài đặt terminatorX với tư cách « SUID root » thì nó có thể định thời trong thời gian thật không?"
+msgstr ""
+"Cài đặt terminatorX với tư cách « SUID root » thì nó có thể định thời trong "
+"thời gian thật không?"
 
+#. Type: boolean
 #. Description
-#: ../templates:4
+#: ../templates:1001
 msgid ""
 "TerminatorX now supports installation of its binary SUID root.  This allows "
 "it to run in a realtime scheduled priority thereby greatly improving "
 "performance.  However, it is generally a good idea to minimize the number of "
 "SUID programs on your machine to avoid security risks."
-msgstr "Trình terminatorx lúc bây giờ hỗ trợ cài đặt tập tin nhị phân của nó với tư cách « SUID root ». Tùy chọn này cho phép nó chạy với ưu tiên được định trong thời gian thật, mà tiến bộ hiệu năng nhiều. Tuy nhiên, thường là ý kiến tốt để cực tiểu hóa số chương trình SUID trên máy bạn, để tránh rủi ro bảo mật."
+msgstr ""
+"Trình terminatorx lúc bây giờ hỗ trợ cài đặt tập tin nhị phân của nó với tư "
+"cách « SUID root ». Tùy chọn này cho phép nó chạy với ưu tiên được định trong "
+"thời gian thật, mà tiến bộ hiệu năng nhiều. Tuy nhiên, thường là ý kiến tốt "
+"để cực tiểu hóa số chương trình SUID trên máy bạn, để tránh rủi ro bảo mật."
 
+#. Type: boolean
 #. Description
-#: ../templates:4
+#: ../templates:1001
 msgid ""
 "If you are installing this on your personal desktop with only 1 user, it "
 "should be fairly safe to accept here. If in doubt, refuse."
-msgstr "Nếu bạn đang cài đặt trình này trên máy trên bàn cá nhân của bạn, mà người khác sẽ không dùng, thì thường hơi an toàn để chấp nhận tại đây. Nếu chưa chắc thì hãy từ chối."
+msgstr ""
+"Nếu bạn đang cài đặt trình này trên máy trên bàn cá nhân của bạn, mà người "
+"khác sẽ không dùng, thì thường hơi an toàn để chấp nhận tại đây. Nếu chưa "
+"chắc thì hãy từ chối."

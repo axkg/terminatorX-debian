@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: terminatorx\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-07-11 09:26+0200\n"
+"Report-Msgid-Bugs-To: terminatorx@packages.debian.org\n"
+"POT-Creation-Date: 2008-03-19 18:48+0100\n"
 "PO-Revision-Date: 2005-01-31 17:45+0100\n"
 "Last-Translator: Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team: Czech <provoz@debian.cz>\n"
@@ -23,13 +23,16 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. Type: boolean
 #. Description
-#: ../templates:4
+#: ../templates:1001
 msgid "Install terminatorX SUID root so it can use realtime scheduling?"
-msgstr "Instalovat terminatorX SUID root, aby mohl vyu¾ívat realtime plánování?"
+msgstr ""
+"Instalovat terminatorX SUID root, aby mohl vyu¾ívat realtime plánování?"
 
+#. Type: boolean
 #. Description
-#: ../templates:4
+#: ../templates:1001
 msgid ""
 "TerminatorX now supports installation of its binary SUID root.  This allows "
 "it to run in a realtime scheduled priority thereby greatly improving "
@@ -38,14 +41,15 @@ msgid ""
 msgstr ""
 "TerminatorX podporuje instalaci s nastaveným SUID bitem na roota. To mu "
 "umo¾òuje bìh v realtimové prioritì plánovaèe a tím vy¹¹í výkonnost. Na "
-"druhou stranu je v¾dy dobré mít na poèítaèi co nejménì SUID programù, "
-"abyste pøede¹li bezpeènostním rizikùm."
+"druhou stranu je v¾dy dobré mít na poèítaèi co nejménì SUID programù, abyste "
+"pøede¹li bezpeènostním rizikùm."
 
+#. Type: boolean
 #. Description
-#: ../templates:4
+#: ../templates:1001
 msgid ""
 "If you are installing this on your personal desktop with only 1 user, it "
 "should be fairly safe to accept here. If in doubt, refuse."
 msgstr ""
-"Pokud instalujete progam na osobní poèítaè s jediným u¾ivatelem, mìlo by "
-"být bezpeèné souhlasit. Pokud jste na pochybách, zamítnìte."
+"Pokud instalujete progam na osobní poèítaè s jediným u¾ivatelem, mìlo by být "
+"bezpeèné souhlasit. Pokud jste na pochybách, zamítnìte."

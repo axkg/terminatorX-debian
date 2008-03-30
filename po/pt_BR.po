@@ -1,0 +1,52 @@
+# terminatorx Brazilian Portuguese translation
+# Copyright (c) 2008 terminator's PACKAGE COPYRIGHT HOLDER
+# This file is distributed under the same license as the terminatorx package.
+# Eder L. Marques (frolic) <frolic@debian-ce.org>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: terminatorx\n"
+"Report-Msgid-Bugs-To: terminatorx@packages.debian.org\n"
+"POT-Creation-Date: 2008-03-19 18:48+0100\n"
+"PO-Revision-Date: 2008-03-10 17:32-0300\n"
+"Last-Translator: Eder L. Marques (frolic) <frolic@debian-ce.org>\n"
+"Language-Team: l10n Portuguese <debian-l10n-portuguese@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"pt_BR utf-8\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n > 1);\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Install terminatorX SUID root so it can use realtime scheduling?"
+msgstr ""
+"Instalar o terminatorX com SUID root para que ele possa usar agendamento em "
+"tempo real?"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"TerminatorX now supports installation of its binary SUID root.  This allows "
+"it to run in a realtime scheduled priority thereby greatly improving "
+"performance.  However, it is generally a good idea to minimize the number of "
+"SUID programs on your machine to avoid security risks."
+msgstr ""
+"O terminatorX agora suporta a instalação de seus binários com SUID root. "
+"Isto permite que ele execute em uma prioridade de agendamento em tempo real, "
+"o que melhora significantemente a performance. Contudo, geralmente é uma boa "
+"idéia minimizar o número de programas com SUID em sua máquina para evitar "
+"riscos de segurança."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If you are installing this on your personal desktop with only 1 user, it "
+"should be fairly safe to accept here. If in doubt, refuse."
+msgstr ""
+"Se você está instalando-o em seu computador pessoal com um único usuário, "
+"deve ser razoavelmente seguro aceitar aqui. Em caso de dúvida, recuse."

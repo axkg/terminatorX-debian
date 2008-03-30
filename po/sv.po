@@ -8,44 +8,48 @@
 # or http://www.debian.org/intl/l10n/po-debconf/README-trans
 # Developers do not need to manually edit POT or PO files.
 # , fuzzy
-# 
-# 
+#
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: terminatorx 3.82-4\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-07-11 09:26+0200\n"
+"Report-Msgid-Bugs-To: terminatorx@packages.debian.org\n"
+"POT-Creation-Date: 2008-03-19 18:48+0100\n"
 "PO-Revision-Date: 2005-10-05 06:02+0200\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
+#. Type: boolean
 #. Description
-#: ../templates:4
+#: ../templates:1001
 msgid "Install terminatorX SUID root so it can use realtime scheduling?"
-msgstr "Installera terminatoX SUID-root så att den kan använda schemaläggning i realtid?"
+msgstr ""
+"Installera terminatoX SUID-root så att den kan använda schemaläggning i "
+"realtid?"
 
+#. Type: boolean
 #. Description
-#: ../templates:4
+#: ../templates:1001
 msgid ""
 "TerminatorX now supports installation of its binary SUID root.  This allows "
 "it to run in a realtime scheduled priority thereby greatly improving "
 "performance.  However, it is generally a good idea to minimize the number of "
 "SUID programs on your machine to avoid security risks."
 msgstr ""
-"TerminatorX stödjer numera installationen av sin binär SUID-root.  Det gör att "
-"den kan köra i en schemalagd prioritering i realtid som påverkar prestandan positivt. "
-"Men det är generellt en bra ide att minimera antal SUID-program på din maskin för att "
-"undvika säkerhetsproblem."
+"TerminatorX stödjer numera installationen av sin binär SUID-root.  Det gör "
+"att den kan köra i en schemalagd prioritering i realtid som påverkar "
+"prestandan positivt. Men det är generellt en bra ide att minimera antal SUID-"
+"program på din maskin för att undvika säkerhetsproblem."
 
+#. Type: boolean
 #. Description
-#: ../templates:4
+#: ../templates:1001
 msgid ""
 "If you are installing this on your personal desktop with only 1 user, it "
 "should be fairly safe to accept here. If in doubt, refuse."
 msgstr ""
-"Om du installerar detta på ditt personliga skrivbord med bara 1 användare kan det "
-"vara hyffsat säkert att svara ja här. Om du är osäker, svara nej."
-
+"Om du installerar detta på ditt personliga skrivbord med bara 1 användare "
+"kan det vara hyffsat säkert att svara ja här. Om du är osäker, svara nej."

@@ -1,3 +1,24 @@
+terminatorx (3.82-7.1) unstable; urgency=low
+
+  * Non-maintainer upload to fix pending l10n issues and other
+    trivial fixes.
+  * Fix FTBFS on GNU/kFreeBSD. Thanks to Mike Furr for the patch.
+    Closes: #377826
+  * Debconf translations:
+    - German. Closes: #411332
+    - Portuguese. Closes: #416821
+    - Dutch. Closes: #418405
+    - Finnish. Closes: #469515
+    - Russian. Closes: #469799
+    - Brazilian Portuguese. Closes: #473242
+  * [Lintian] Correct spelling of "GTK+" in package description
+  * [Lintian] menu entry moved to Applications
+  * [Lintian] add real copyright information to debian/copyright
+  * [Lintian] convert debian/copyright to UTF-8
+  * [Lintian] No longer ignore errors by "make distclean"
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 30 Mar 2008 14:29:31 +0200
+
 terminatorx (3.82-7) unstable; urgency=low
 
   * !@!$@# Note to future self, don't use aptitude to install

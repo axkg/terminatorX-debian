@@ -1,0 +1,49 @@
+# Translation of terminatorx debconf templates to German
+# Copyright (C) Helge Kreutzmann <debian@helgefjell.de>, 2007.
+# This file is distributed under the same license as the terminatorx package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: terminatorx 3.82-7\n"
+"Report-Msgid-Bugs-To: terminatorx@packages.debian.org\n"
+"POT-Creation-Date: 2008-03-19 18:48+0100\n"
+"PO-Revision-Date: 2007-02-17 19:53+0100\n"
+"Last-Translator: Helge Kreutzmann <debian@helgefjell.de>\n"
+"Language-Team: German <debian-l10n-german@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Install terminatorX SUID root so it can use realtime scheduling?"
+msgstr ""
+"TerminatorX SUID root installieren, so das es Echtzeit-Scheduling verwenden "
+"kann?"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"TerminatorX now supports installation of its binary SUID root.  This allows "
+"it to run in a realtime scheduled priority thereby greatly improving "
+"performance.  However, it is generally a good idea to minimize the number of "
+"SUID programs on your machine to avoid security risks."
+msgstr ""
+"TerminatorX ermöglicht jetzt die Installation seines Programms mit SUID "
+"root. Dies erlaubt es ihm, mit Echtzeit-Festlegungs-Priorität zu laufen und "
+"damit bedeutend an Leistung zu gewinnen. Allerdings ist es im allgemeinen "
+"eine gute Idee, die Anzahl an SUID-Programmen auf Ihrer Maschine zu "
+"reduzieren um Sicherheitsrisiken zu vermeiden."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If you are installing this on your personal desktop with only 1 user, it "
+"should be fairly safe to accept here. If in doubt, refuse."
+msgstr ""
+"Falls Sie auf Ihrer persönlichen Arbeitsplatzmaschine mit nur einem Benutzer "
+"installieren, sollte es recht sicher sein, hier zu akzeptieren. Im "
+"Zweifelsfall lehnen Sie ab."
