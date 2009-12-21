@@ -1,3 +1,18 @@
+terminatorx (3.82-7.3) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix FTBFS on GNU/kFreeBSD (Closes: #542531):
+     - Add 20_fix_ftbfs_on_kfreebsd.dpatch
+  * Replace libjack0.100.0-dev with libjack-dev in Build-Depends as
+    requested by jack folks (Closes: #527441).
+  * Fix config.{guess,sub} handling:
+     - Make it deterministic by copying them unconditionally before
+       running configure.
+     - Remove them in the clean target to keep the Debian diff clean.
+     - Add autotools-dev to Build-Depends accordingly.
+
+ -- Cyril Brulebois <kibi@debian.org>  Mon, 21 Dec 2009 14:29:36 +0100
+
 terminatorx (3.82-7.2) unstable; urgency=low
 
   * Non-maintainer upload.
