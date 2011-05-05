@@ -1,0 +1,30 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 21_fix_ftbfs_binutils_gold.dpatch by Mahyuddin Susanto <udienz@gmail.com>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: Fix FTBFS binutils-gold with ld --no-add-needed by addding dl library
+
+@DPATCH@
+diff -Nurp terminatorx-3.82/src/Makefile.am terminatorx-3.82.ubuntu/src/Makefile.am
+--- terminatorx-3.82/src/Makefile.am	2004-10-30 03:37:11.000000000 +0700
++++ terminatorx-3.82.ubuntu/src/Makefile.am	2011-01-11 19:49:34.329187002 +0700
+@@ -5,6 +5,7 @@ SUBDIRS = icons
+ EXTRA_CFLAGS=-D_REENTRANT @DEPRECATED_FLAGS@
+ AM_CFLAGS=@CFLAGS@ @GTK_CFLAGS@ $(EXTRA_CFLAGS)
+ AM_CXXFLAGS=@CFLAGS@ @GTK_CFLAGS@  $(EXTRA_CFLAGS)
++terminatorX_LDADD = @LDADD@ -ldl
+ 
+ license.c: $(top_srcdir)/COPYING
+ 	@AWK@ -f $(srcdir)/licmak.awk < $(top_srcdir)/COPYING > $(srcdir)/license.c
+diff -Nurp terminatorx-3.82/src/Makefile.in terminatorx-3.82.ubuntu/src/Makefile.in
+--- terminatorx-3.82/src/Makefile.in	2004-11-03 21:41:09.000000000 +0700
++++ terminatorx-3.82.ubuntu/src/Makefile.in	2011-01-11 19:49:39.033187001 +0700
+@@ -65,7 +65,7 @@ am_terminatorX_OBJECTS = tX_endian.$(OBJ
+ 	tX_glade_callbacks.$(OBJEXT) tX_glade_support.$(OBJEXT) \
+ 	tX_ladspa_class.$(OBJEXT) tX_capabilities.$(OBJEXT)
+ terminatorX_OBJECTS = $(am_terminatorX_OBJECTS)
+-terminatorX_LDADD = $(LDADD)
++terminatorX_LDADD = $(LDADD) -ldl
+ DEFAULT_INCLUDES = -I. -I$(srcdir) -I$(top_builddir)
+ depcomp = $(SHELL) $(top_srcdir)/depcomp
+ am__depfiles_maybe = depfiles

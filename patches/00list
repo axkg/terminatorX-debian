@@ -2,3 +2,4 @@
 15_icon_xpm
 16_loose_spelling_fix
 20_fix_ftbfs_on_kfreebsd.dpatch
+21_fix_ftbfs_binutils_gold

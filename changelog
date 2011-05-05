@@ -1,3 +1,11 @@
+terminatorx (3.82-7.4) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Append -ldl to LDADD to fix FTBFS with binutils-gold (Closes: #556491);
+    thank to Mahyuddin Susanto <udienz@gmail.com> for the patch.
+
+ -- Alessio Treglia <alessio@debian.org>  Thu, 05 May 2011 19:22:08 +0200
+
 terminatorx (3.82-7.3) unstable; urgency=low
 
   * Non-maintainer upload.
