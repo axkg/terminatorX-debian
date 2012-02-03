@@ -1,25 +1,27 @@
+# Danish translation terminatorx.
+# Copyright (C) 2010 terminatorx og nedenstående oversættere.
+# This file is distributed under the same license as terminatorx package.
+# Joe Hansen <joedalton2@yahoo.dk>, 2010.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: terminatorx\n"
 "Report-Msgid-Bugs-To: terminatorx@packages.debian.org\n"
 "POT-Creation-Date: 2008-03-19 18:48+0100\n"
-"PO-Revision-Date: 2008-03-05 18:34+0200\n"
-"Last-Translator: Esko Arajärvi <edu@iki.fi>\n"
-"Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
-"Language: fi\n"
+"PO-Revision-Date: 2010-11-30 17:30+01:00\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"Language-Team: Danish <debian-l10n-danish@lists.debian.org>\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Finnish\n"
-"X-Poedit-Country: FINLAND\n"
 
 #. Type: boolean
 #. Description
 #: ../templates:1001
 msgid "Install terminatorX SUID root so it can use realtime scheduling?"
 msgstr ""
-"Asennetaanko terminatorX asetuksella ”SUID root”, jolloin se voi käyttää "
-"reaaliaikaista vuorottamista?"
+"Installer terminatorX SUID root så programmet kan bruge realtidsplanlægning?"
 
 #. Type: boolean
 #. Description
@@ -30,11 +32,10 @@ msgid ""
 "performance.  However, it is generally a good idea to minimize the number of "
 "SUID programs on your machine to avoid security risks."
 msgstr ""
-"Ohjelman terminatorX binääritiedosto voidaan asentaa asetuksella ”SUID "
-"root”. Tällöin se voidaan ajaa reaaliaikaisesti vuorotetulla prioriteetilla, "
-"mikä parantaa suorituskykyä huomattavasti. On kuitenkin yleisesti "
-"suositeltavaa minimoida SUID-asetuksella ajettavien ohjelmien määrä "
-"turvallisuusriskien välttämiseksi."
+"TerminatorX understøtter nu installation af dens binære SUID root. Dette "
+"tillader den at køre i realtidsplanlægningsprioritet. Dette øger markant "
+"ydelsen. Det er dog generelt en god ide at minimere antallet af SUID-"
+"programmer på din maskine for at undgå sikkerhedsrisikoer."
 
 #. Type: boolean
 #. Description
@@ -43,6 +44,6 @@ msgid ""
 "If you are installing this on your personal desktop with only 1 user, it "
 "should be fairly safe to accept here. If in doubt, refuse."
 msgstr ""
-"Jos ohjelmaa ajetaan henkilökohtaisella koneella, jolla on vain yksi "
-"käyttäjä, tämän valitsemisen pitäisi olla kohtuullisen turvallista. Jos olet "
-"epävarma, älä valitse tätä."
+"Hvis du installerer dette program på dit personlige skrivebord med kun 1 "
+"bruger, bør det være rimeligt sikkert at acceptere her. Hvis du er i tvivl, "
+"så afslå."

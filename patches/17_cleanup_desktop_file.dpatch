@@ -1,0 +1,26 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 17_cleanup_desktop_file.dpatch by William Grant <william.grant@ubuntu.org.au>
+## Remove .png extension from icon filename -- Alessio Treglia <quadrispro@ubuntu.com>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: Clean up .desktop file.
+
+@DPATCH@
+diff -urNad terminatorx-3.82~/gnome-support/terminatorX.desktop terminatorx-3.82/gnome-support/terminatorX.desktop
+--- terminatorx-3.82~/gnome-support/terminatorX.desktop	2004-03-26 20:13:24.000000000 +0100
++++ terminatorx-3.82/gnome-support/terminatorX.desktop	2009-02-17 20:56:47.000000000 +0100
+@@ -1,10 +1,10 @@
+ [Desktop Entry]
+ Exec=terminatorX
+ Name=terminatorX
+-GenericName=Virtual turntable
+-Comment=Versatile DJ scratching and mixing application.
++GenericName=Virtual Turntable
++Comment=Scratch and mix audio
+ Terminal=false
+ Type=Application
+-Icon=terminatorX-app.png
+-Categories=Application;AudioVideo;
++Icon=terminatorX-app
++Categories=AudioVideo;
+ StartupNotify=true

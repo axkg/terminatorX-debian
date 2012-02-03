@@ -1,3 +1,15 @@
+terminatorx (3.82-7.5) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Trivial fixes pending in BTS:
+    - Fix upstream .desktop file. Closes: #564025
+    - Add Homepage to debian/control. Closes: #564024
+  * Fix pending l10n issues. Debconf translations:
+    - Danish (Joe Hansen).  Closes: #605521
+    - Polish (Michał Kułach).  Closes: #657507
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 03 Feb 2012 07:09:11 +0100
+
 terminatorx (3.82-7.4) unstable; urgency=low
 
   * Non-maintainer upload.
