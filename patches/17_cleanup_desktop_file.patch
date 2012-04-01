@@ -1,11 +1,6 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-## 17_cleanup_desktop_file.dpatch by William Grant <william.grant@ubuntu.org.au>
-## Remove .png extension from icon filename -- Alessio Treglia <quadrispro@ubuntu.com>
-##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: Clean up .desktop file.
-
-@DPATCH@
+Author: Alessio Treglia <quadrispro@ubuntu.com>
+Description: Remove .png extension from icon filename
+Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=564025
 ---
  gnome-support/terminatorX.desktop |    8 ++++----
  1 file changed, 4 insertions(+), 4 deletions(-)

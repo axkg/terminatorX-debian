@@ -3,5 +3,4 @@
 16_loose_spelling_fix.patch
 17_cleanup_desktop_file.patch
 20_fix_ftbfs_on_kfreebsd.patch
-21_fix_ftbfs_binutils_gold.patch
 22_manual.patch

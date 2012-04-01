@@ -1,10 +1,6 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-## 20_fix_ftbfs_on_kfreebsd by Cyril Brulebois <kibi@debian.org>
-##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: Fix FTBFS on GNU/kFreeBSD (Closes: #542531).
-
-@DPATCH@
+Author: Cyril Brulebois <kibi@debian.org>
+Description: Fix FTBFS on GNU/kFreeBSD
+Bug-Debian: http://bugs.debian.org/542531
 ---
  src/tX_mouse.cc     |    1 +
  src/tX_seqpar.cc    |    1 +
@@ -16,7 +12,7 @@
 
 --- terminatorx.orig/src/tX_mouse.cc
 +++ terminatorx/src/tX_mouse.cc
-@@ -32,6 +32,7 @@
+@@ -48,6 +48,7 @@
  #include "tX_engine.h"
  #include "tX_vtt.h"
  #include <stdlib.h>

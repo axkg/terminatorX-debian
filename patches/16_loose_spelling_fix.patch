@@ -1,17 +1,14 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-## 16_loose_spelling_fix.dpatch by William Grant <william.grant@ubuntu.org.au>
-##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: Fix two instances of 'loose' to 'lose'. (LP: #61952)
-
-@DPATCH@
+Origin: Ubuntu
+Description: Fix two instances of 'loose' to 'lose'.
+Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=389412
+Bug-Ubuntu: https://launchpad.net/bugs/61952
 ---
  src/tX_mastergui.cc |    4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 --- terminatorx.orig/src/tX_mastergui.cc
 +++ terminatorx/src/tX_mastergui.cc
-@@ -265,7 +265,7 @@ char tx_mg_current_setname[PATH_MAX]="";
+@@ -273,7 +273,7 @@ char tx_mg_current_setname[PATH_MAX]="";
  GtkSignalFunc new_tables() {
  	GtkWidget *dialog=gtk_message_dialog_new(GTK_WINDOW(main_window), 
  		GTK_DIALOG_DESTROY_WITH_PARENT, GTK_MESSAGE_QUESTION, GTK_BUTTONS_YES_NO,
@@ -20,7 +17,7 @@
  	
  	int res=gtk_dialog_run(GTK_DIALOG(dialog));
  	gtk_widget_destroy(dialog);
-@@ -883,7 +883,7 @@ gboolean quit()
+@@ -894,7 +894,7 @@ gboolean quit()
  	if (globals.quit_confirm) {
  		GtkWidget *dialog=gtk_message_dialog_new(GTK_WINDOW(main_window), 
  		GTK_DIALOG_DESTROY_WITH_PARENT, GTK_MESSAGE_QUESTION, GTK_BUTTONS_YES_NO,
