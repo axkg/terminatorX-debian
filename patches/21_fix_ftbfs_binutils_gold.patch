@@ -5,9 +5,13 @@
 ## DP: Fix FTBFS binutils-gold with ld --no-add-needed by addding dl library
 
 @DPATCH@
-diff -Nurp terminatorx-3.82/src/Makefile.am terminatorx-3.82.ubuntu/src/Makefile.am
---- terminatorx-3.82/src/Makefile.am	2004-10-30 03:37:11.000000000 +0700
-+++ terminatorx-3.82.ubuntu/src/Makefile.am	2011-01-11 19:49:34.329187002 +0700
+---
+ src/Makefile.am |    1 +
+ src/Makefile.in |    2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+--- terminatorx.orig/src/Makefile.am
++++ terminatorx/src/Makefile.am
 @@ -5,6 +5,7 @@ SUBDIRS = icons
  EXTRA_CFLAGS=-D_REENTRANT @DEPRECATED_FLAGS@
  AM_CFLAGS=@CFLAGS@ @GTK_CFLAGS@ $(EXTRA_CFLAGS)
@@ -16,9 +20,8 @@ diff -Nurp terminatorx-3.82/src/Makefile.am terminatorx-3.82.ubuntu/src/Makefile
  
  license.c: $(top_srcdir)/COPYING
  	@AWK@ -f $(srcdir)/licmak.awk < $(top_srcdir)/COPYING > $(srcdir)/license.c
-diff -Nurp terminatorx-3.82/src/Makefile.in terminatorx-3.82.ubuntu/src/Makefile.in
---- terminatorx-3.82/src/Makefile.in	2004-11-03 21:41:09.000000000 +0700
-+++ terminatorx-3.82.ubuntu/src/Makefile.in	2011-01-11 19:49:39.033187001 +0700
+--- terminatorx.orig/src/Makefile.in
++++ terminatorx/src/Makefile.in
 @@ -65,7 +65,7 @@ am_terminatorX_OBJECTS = tX_endian.$(OBJ
  	tX_glade_callbacks.$(OBJEXT) tX_glade_support.$(OBJEXT) \
  	tX_ladspa_class.$(OBJEXT) tX_capabilities.$(OBJEXT)

@@ -1,6 +1,0 @@
-05_endian_h
-15_icon_xpm
-16_loose_spelling_fix
-17_cleanup_desktop_file
-20_fix_ftbfs_on_kfreebsd.dpatch
-21_fix_ftbfs_binutils_gold

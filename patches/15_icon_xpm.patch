@@ -23,9 +23,12 @@ esac
 exit 0
 
 @DPATCH@
-diff -urNad /home/furrm/debian/packages/terminatorX/terminatorx-3.81/gnome-support/terminatorX-app.xpm terminatorx-3.81/gnome-support/terminatorX-app.xpm
---- /home/furrm/debian/packages/terminatorX/terminatorx-3.81/gnome-support/terminatorX-app.xpm	1969-12-31 19:00:00.000000000 -0500
-+++ terminatorx-3.81/gnome-support/terminatorX-app.xpm	2004-08-11 12:14:39.000000000 -0400
+---
+ gnome-support/terminatorX-app.xpm |  165 ++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 165 insertions(+)
+
+--- /dev/null
++++ terminatorx/gnome-support/terminatorX-app.xpm
 @@ -0,0 +1,165 @@
 +/* XPM */
 +static char *terminatorX-app[] = {
