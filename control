@@ -2,8 +2,37 @@ Source: terminatorx
 Section: sound
 Priority: optional
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
-Uploaders: Alessio Treglia <alessio@debian.org>
-Build-Depends: debhelper (>= 4.1.16), mpg321, vorbis-tools, sox, ladspa-sdk, libaudiofile-dev, libvorbis-dev, libglib2.0-dev, libgtk2.0-dev, libmad0-dev, libxml2-dev, libatk1.0-dev, libpango1.0-dev, zlib1g-dev, libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], scrollkeeper, liblrdf0-dev, libjack-dev, libcap2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], dpatch, libxxf86dga-dev, libxext-dev, libxi-dev, libx11-dev, libsm-dev, libice-dev, libxt-dev, autotools-dev
+Uploaders:
+ Alessio Treglia <alessio@debian.org>
+Build-Depends:
+ autotools-dev,
+ debhelper (>= 4.1.16),
+ dpatch,
+ ladspa-sdk,
+ libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
+ libatk1.0-dev,
+ libaudiofile-dev,
+ libcap2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
+ libglib2.0-dev,
+ libgtk2.0-dev,
+ libice-dev,
+ libjack-dev,
+ liblrdf0-dev,
+ libmad0-dev,
+ libpango1.0-dev,
+ libsm-dev,
+ libvorbis-dev,
+ libx11-dev,
+ libxext-dev,
+ libxi-dev,
+ libxml2-dev,
+ libxt-dev,
+ libxxf86dga-dev,
+ mpg321,
+ scrollkeeper,
+ sox,
+ vorbis-tools,
+ zlib1g-dev
 Standards-Version: 3.6.1.0
 Homepage: http://www.terminatorx.org/
 Vcs-Git: git://anonscm.debian.org/pkg-multimedia/terminatorx.git
@@ -11,8 +40,17 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-multimedia/terminatorx.git
 
 Package: terminatorx
 Architecture: any
-Depends: ${shlibs:Depends},${misc:Depends},vorbis-tools,sox,mpg321,ladspa-sdk,scrollkeeper
-Suggests: yelp,ladspa-plugin
+Depends:
+ ladspa-sdk,
+ mpg321,
+ scrollkeeper,
+ sox,
+ vorbis-tools,
+ ${misc:Depends},
+ ${shlibs:Depends}
+Suggests:
+ ladspa-plugin,
+ yelp
 Description: realtime audio synthesizer
  terminatorX is a realtime audio synthesizer that allows you to
  "scratch" on digitally sampled audio data (*.wav, *.au, *.mp3, etc.)
