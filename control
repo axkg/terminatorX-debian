@@ -42,7 +42,6 @@ Architecture: any
 Depends:
  ladspa-sdk,
  mpg321,
- scrollkeeper,
  sox,
  vorbis-tools,
  ${misc:Depends},

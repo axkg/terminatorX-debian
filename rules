@@ -36,5 +36,11 @@ override_dh_auto_install:
 	(cd gnome-support && \
 	 cp terminatorX-app.xpm $(CURDIR)/debian/terminatorx/usr/share/pixmaps)
 
+override_dh_install:
+	dh_install
+	mv debian/terminatorx/usr/share/gnome/apps/Multimedia/terminatorX.desktop \
+		debian/terminatorx/usr/share/applications/
+	find debian/terminatorx -type d -empty -delete
+
 override_dh_installman:
 	dh_installman terminatorX.1

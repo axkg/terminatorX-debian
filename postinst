@@ -12,10 +12,6 @@ test -e /usr/share/debconf/confmodule && {
 
 umask 022
 
-if [ "$action" = "configure" ]; then
-    scrollkeeper-update -q
-fi
-
 db_get terminatorx/suid_bin
 suid="$RET"
 
