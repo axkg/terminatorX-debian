@@ -4,3 +4,4 @@
 17_cleanup_desktop_file.patch
 20_fix_ftbfs_on_kfreebsd.patch
 22_manual.patch
+23_new_zlib.patch
