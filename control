@@ -5,8 +5,8 @@ Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alio
 Uploaders:
  Alessio Treglia <alessio@debian.org>
 Build-Depends:
- autotools-dev,
  debhelper (>= 7.0.50~),
+ dh-autoreconf,
  ladspa-sdk,
  libasound2-dev [linux-any],
  libatk1.0-dev,

@@ -11,12 +11,12 @@ ifeq (,$(findstring nostrip,$(DEB_BUILD_OPTIONS)))
 	INSTALL_PROGRAM += -s
 endif
 
-ifeq (linux,$(DEB_HOST_ARCH_OS)))
+ifeq (linux,$(DEB_HOST_ARCH_OS))
 	EXTRA_CONFIGURE := --enable-capabilities
 endif
 
 %:
-	dh $@ --parallel --with autotools-dev
+	dh $@ --parallel --with autoreconf
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
