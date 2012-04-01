@@ -16,7 +16,7 @@ ifeq (linux,$(DEB_HOST_ARCH_OS)))
 endif
 
 %:
-	dh $@ --with autotools-dev
+	dh $@ --parallel --with autotools-dev
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
