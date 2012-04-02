@@ -21,7 +21,7 @@ endif
 override_dh_auto_configure:
 	dh_auto_configure -- \
                       --enable-mpg123=/usr/bin/mpg321 \
-                      --enable-suidroot $(EXTRA_CONFIGURE) \
+                      $(EXTRA_CONFIGURE) \
                       gnomedatadir=/usr/share/ \
                       gnomepresent=yes
 	find -name '*.xml' -exec perl -i -pe 's,http://www.oasis-open.org/docbook/xml/([^/]+)/docbookx.dtd,/usr/share/sgml/docbook/dtd/xml/\1/docbookx.dtd,' {} \;
