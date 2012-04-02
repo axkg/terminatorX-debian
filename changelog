@@ -19,17 +19,21 @@ terminatorx (3.84-1) unstable; urgency=low
     - Port patches from dpatch to quilt.
     - Drop dpatch support.
     - Incorporate direct changes to the manual in a quilt patch.
-  * Fix FTBFS errors "cannot convert 'gzFile_s**' to 'gzFile' for argument '1'".
+  * Fix FTBFS errors "cannot convert 'gzFile_s**' to 'gzFile' for
+    argument '1'".
     Thanks to Moritz Muehlenhoff for the patch. (Closes: #663053)
   * Remove debian/patches/21_fix_ftbfs_binutils_gold.patch, applied upstream.
   * Refresh patches.
   * Replace list of negated architectures with linux-any in debian/control.
-  * Fix maintainer-script-without-set-e and maintainer-script-ignores-errors warnings.
-  * Remove scrollkeeper stuff, install the desktop file to /usr/share/applications/.
+  * Fix maintainer-script-without-set-e and maintainer-script-ignores-errors
+    warnings.
+  * Remove scrollkeeper stuff, install the desktop file to
+    /usr/share/applications/.
   * Run autoreconf before configuring the package.
   * Drop --enable-suidroot option, no longer needed.
   * Compile with --as-needed.
-  * The buildsystem install the man page, so there's no need to call dh_installman.
+  * The buildsystem install the man page, so there's no need to call
+    dh_installman.
   * Add watch file.
   * Update debian/copyright.
   * Update Standards-Version.
