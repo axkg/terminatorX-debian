@@ -1,3 +1,41 @@
+terminatorx (3.84-1) unstable; urgency=low
+
+  * New maintainer. (Closes: #660434)
+  * ACK NMUs (Closes: #515716)
+  * New upstream release (Closes: #612760):
+    - introduced a workaround for terminatorX bug #29 (Closes: #637007)
+    - moved to terminatorX.org
+    - fixed misc gcc 4.0 warnings
+    - removed fastabs() implementation - it failed with gcc > 4.0
+    - fixed a compilation issue (Thanks, cyril!)
+    - fixed main window menu bar layout issue
+    - fixed broken mouse grab (LP: #469365), grab events are now
+      handled by gui thread
+    - work-around gtk+ auto mnemonics
+    - fixed deprecated gtk+, jack and Xorg API
+  * Switch to DH 7.
+  * Add --parallel to dh sequencer.
+  * Convert packaging to source format 3.0 (quilt):
+    - Port patches from dpatch to quilt.
+    - Drop dpatch support.
+    - Incorporate direct changes to the manual in a quilt patch.
+  * Fix FTBFS errors "cannot convert 'gzFile_s**' to 'gzFile' for argument '1'".
+    Thanks to Moritz Muehlenhoff for the patch. (Closes: #663053)
+  * Remove debian/patches/21_fix_ftbfs_binutils_gold.patch, applied upstream.
+  * Refresh patches.
+  * Replace list of negated architectures with linux-any in debian/control.
+  * Fix maintainer-script-without-set-e and maintainer-script-ignores-errors warnings.
+  * Remove scrollkeeper stuff, install the desktop file to /usr/share/applications/.
+  * Run autoreconf before configuring the package.
+  * Drop --enable-suidroot option, no longer needed.
+  * Compile with --as-needed.
+  * The buildsystem install the man page, so there's no need to call dh_installman.
+  * Add watch file.
+  * Update debian/copyright.
+  * Update Standards-Version.
+
+ -- Alessio Treglia <alessio@debian.org>  Mon, 02 Apr 2012 02:12:47 +0200
+
 terminatorx (3.82-7.5) unstable; urgency=low
 
   * Non-maintainer upload.
