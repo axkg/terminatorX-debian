@@ -1,9 +1,9 @@
-terminatorx (3.84-2) UNRELEASED; urgency=low
+terminatorx (3.84-2) unstable; urgency=low
 
   * Add missing #include to prevent build failure on
     kfreebsd. (Closes: #667082)
 
- -- Alessio Treglia <alessio@debian.org>  Wed, 04 Apr 2012 08:50:17 +0200
+ -- Alessio Treglia <alessio@debian.org>  Wed, 04 Apr 2012 08:50:42 +0200
 
 terminatorx (3.84-1) unstable; urgency=low
 
