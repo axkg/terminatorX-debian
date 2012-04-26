@@ -1,5 +1,5 @@
 Description: Fix FTBFS errors with newer zlib.
-Author: Moritz Muehlenhoff <muehlenhoff@univention.de>
+Author: Mònica Ramírez <monica@debian.org>
 Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=663053
 Forwarded: no
 ---
