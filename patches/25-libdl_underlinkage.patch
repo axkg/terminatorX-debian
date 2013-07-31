@@ -1,0 +1,13 @@
+Description: Ling with -ldl
+Author: Daniel T Chen <crimsun@ubuntu.com>
+Bug-Debian: http://bugs.debian.org/713560
+Last-Update: 2013-07-31
+
+--- a/src/Makefile.am
++++ b/src/Makefile.am
+@@ -39,3 +39,5 @@
+ 			tX_glade_callbacks.h tX_glade_support.cc \
+ 			tX_glade_support.h tX_ladspa_class.h tX_ladspa_class.cc \
+ 			tX_capabilities.h tX_capabilities.cc
++
++terminatorX_LDADD = $(LDADD) -ldl

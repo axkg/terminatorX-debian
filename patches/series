@@ -6,3 +6,4 @@
 22_manual.patch
 23_new_zlib.patch
 24-missing_include.patch
+25-libdl_underlinkage.patch
