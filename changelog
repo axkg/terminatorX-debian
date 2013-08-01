@@ -1,9 +1,10 @@
-terminatorx (3.84-3) UNRELEASED; urgency=low
+terminatorx (3.84-3) unstable; urgency=low
 
   * Team upload.
 
   [ Alessio Treglia ]
-  * Fix debian/patches/23_new_zlib.patch's header, the author was Mònica Ramírez so credits go to her for the good work.
+  * Fix debian/patches/23_new_zlib.patch's header, the author was Mònica
+    Ramírez so credits go to her for the good work.
 
   [ Sebastian Ramacher ]
   * debian/patches/25-libdl_underlinkage.patch: Apply patch from Ubuntu to fix
@@ -12,7 +13,7 @@ terminatorx (3.84-3) UNRELEASED; urgency=low
     - Bump debhelper to >= 9 for binary-{arch,indep} support and hardening.
     - Bump Standards-Version to 3.9.4.
 
- -- Sebastian Ramacher <sramacher@debian.org>  Wed, 31 Jul 2013 19:03:11 +0200
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 02 Aug 2013 01:49:54 +0200
 
 terminatorx (3.84-2) unstable; urgency=low
 
