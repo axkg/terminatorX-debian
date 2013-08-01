@@ -15,8 +15,7 @@ ifeq (linux,$(DEB_HOST_ARCH_OS))
 	EXTRA_CONFIGURE := --enable-capabilities
 endif
 
-LDFLAGS += -Wl,--as-needed
-export LDFLAGS
+export DEB_LDFLAGS_MAINT_APPEND=-Wl,--as-needed
 
 %:
 	dh $@ --parallel --with autoreconf

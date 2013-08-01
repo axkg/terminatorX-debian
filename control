@@ -5,7 +5,7 @@ Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alio
 Uploaders:
  Alessio Treglia <alessio@debian.org>
 Build-Depends:
- debhelper (>= 7.0.50~),
+ debhelper (>= 9),
  dh-autoreconf,
  ladspa-sdk,
  libasound2-dev [linux-any],
@@ -32,7 +32,7 @@ Build-Depends:
  sox,
  vorbis-tools,
  zlib1g-dev
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: http://www.terminatorx.org/
 Vcs-Git: git://anonscm.debian.org/pkg-multimedia/terminatorx.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-multimedia/terminatorx.git
