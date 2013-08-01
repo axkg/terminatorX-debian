@@ -1,3 +1,19 @@
+terminatorx (3.84-3) UNRELEASED; urgency=low
+
+  * Team upload.
+
+  [ Alessio Treglia ]
+  * Fix debian/patches/23_new_zlib.patch's header, the author was Mònica Ramírez so credits go to her for the good work.
+
+  [ Sebastian Ramacher ]
+  * debian/patches/25-libdl_underlinkage.patch: Apply patch from Ubuntu to fix
+    FTBFS. (Closes: #713560)
+  * debian/control:
+    - Bump debhelper to >= 9 for binary-{arch,indep} support and hardening.
+    - Bump Standards-Version to 3.9.4.
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Wed, 31 Jul 2013 19:03:11 +0200
+
 terminatorx (3.84-2) unstable; urgency=low
 
   * Add missing #include to prevent build failure on
