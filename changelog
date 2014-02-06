@@ -1,3 +1,9 @@
+terminatorx (3.89-1) terminatorx; urgency=low
+
+  * Updated to build tX-current.
+
+ -- Alexander Koenig <alex@lisas.de>  Thu, 06 Feb 2014 18:35:54 +0200
+
 terminatorx (3.84-3) unstable; urgency=low
 
   * Team upload.

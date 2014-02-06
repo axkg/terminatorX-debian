@@ -1,9 +1,9 @@
 Source: terminatorx
 Section: sound
 Priority: optional
-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Maintainer: Alexander Koenig <alex@lisas.de> 
 Uploaders:
- Alessio Treglia <alessio@debian.org>
+ Alexander Koenig <alex@lisas.de>
 Build-Depends:
  debhelper (>= 9),
  dh-autoreconf,
@@ -33,9 +33,9 @@ Build-Depends:
  vorbis-tools,
  zlib1g-dev
 Standards-Version: 3.9.4
-Homepage: http://www.terminatorx.org/
-Vcs-Git: git://anonscm.debian.org/pkg-multimedia/terminatorx.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-multimedia/terminatorx.git
+Homepage: https://terminatorx.org/
+Vcs-Git: https://terminatorx.org/src/terminatorX.git
+Vcs-Browser: https://lisas.de/git/?p=terminatorX.git
 
 Package: terminatorx
 Architecture: any

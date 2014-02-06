@@ -21,7 +21,7 @@ export DEB_LDFLAGS_MAINT_APPEND=-Wl,--as-needed
 	dh $@ --parallel --with autoreconf
 
 override_dh_autoreconf:
-	dh_autoreconf --as-needed
+	dh_autoreconf --as-needed ./autogen.sh	
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
@@ -36,13 +36,6 @@ override_dh_auto_clean:
 	rm -f src/license.c
 	find -name '*.xml' -exec perl -i -pe 's,/usr/share/sgml/docbook/dtd/xml/([^/]+)/docbookx.dtd,http://www.oasis-open.org/docbook/xml/\1/docbookx.dtd,' {} \;
 
-override_dh_auto_install:
-	dh_auto_install
-	(cd gnome-support && \
-	 cp terminatorX-app.xpm $(CURDIR)/debian/terminatorx/usr/share/pixmaps)
-
 override_dh_install:
 	dh_install
-	mv debian/terminatorx/usr/share/gnome/apps/Multimedia/terminatorX.desktop \
-		debian/terminatorx/usr/share/applications/
 	find debian/terminatorx -type d -empty -delete

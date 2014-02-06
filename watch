@@ -1,3 +1,3 @@
 version=3
-http://www.terminatorx.org/download.html \
+https://terminatorx.org/download/ \
 dist/terminatorX-(.*)\.tar\.bz2
