@@ -1,8 +1,12 @@
-terminatorx (3.89-1) terminatorx; urgency=low
+terminatorx (3.90-1ubuntu1) saucy; urgency=low
 
-  * Updated to build tX-current.
+  * New upstream
+    - user interface polish
+    - fix for terminatorX bug #33
+    - delayed jack audio engine initialization
+  * Remove debian/patches, have been merged upstream.
 
- -- Alexander Koenig <alex@lisas.de>  Thu, 06 Feb 2014 18:35:54 +0200
+ -- Alexander Koenig <alex@lisas.de>  Wed, 12 Feb 2014 22:19:10 +0100
 
 terminatorx (3.84-3) unstable; urgency=low
 
