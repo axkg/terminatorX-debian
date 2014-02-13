@@ -31,7 +31,8 @@ Build-Depends:
  scrollkeeper,
  sox,
  vorbis-tools,
- zlib1g-dev
+ zlib1g-dev,
+ gnome-doc-utils
 Standards-Version: 3.9.4
 Homepage: https://terminatorx.org/
 Vcs-Git: https://terminatorx.org/src/terminatorX.git

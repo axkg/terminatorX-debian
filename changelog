@@ -1,3 +1,9 @@
+terminatorx (3.90-1ubuntu2) saucy; urgency=low
+
+  * Add missing dependency for gnome-doc-utils
+
+ -- Alexander Koenig <alex@lisas.de>  Thu, 13 Feb 2014 22:25:14 +0100
+
 terminatorx (3.90-1ubuntu1) saucy; urgency=low
 
   * New upstream
