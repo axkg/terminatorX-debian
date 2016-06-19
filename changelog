@@ -1,3 +1,12 @@
+terminatorx (4.00-1) xenial; urgency=low
+
+  * New upstream
+    - gtk3 port
+    - new pulseaudio backend
+    - high dpi user interface updates
+
+ -- Alexander Koenig <alex@lisas.de>  Sun, 19 Jun 2016 12:00:01 +0100
+
 terminatorx (3.90-1ubuntu2) saucy; urgency=low
 
   * Add missing dependency for gnome-doc-utils
