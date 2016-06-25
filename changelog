@@ -1,4 +1,4 @@
-terminatorx (4.00-1) xenial; urgency=low
+terminatorx (4.0.0-1) xenial; urgency=low
 
   * New upstream
     - gtk3 port
