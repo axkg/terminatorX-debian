@@ -1,3 +1,9 @@
+terminatorx (4.0.1-1) xenial; urgency=low
+
+  * Upstream bugfix release
+
+ -- Alexander Koenig <alex@lisas.de>  Sun, 25 Jul 2016 10:10:15 +0100
+
 terminatorx (4.0.0-1) xenial; urgency=low
 
   * New upstream
