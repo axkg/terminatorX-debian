@@ -5,8 +5,7 @@ Maintainer: Alexander Koenig <alex@lisas.de>
 Uploaders:
  Alexander Koenig <alex@lisas.de>
 Build-Depends:
- debhelper (>= 9),
- dh-autoreconf,
+ debhelper (>= 11),
  ladspa-sdk,
  libasound2-dev [linux-any],
  libatk1.0-dev,
@@ -27,15 +26,14 @@ Build-Depends:
  libxi-dev,
  libxml2-dev,
  mpg321,
- scrollkeeper,
  sox,
  vorbis-tools,
- zlib1g-dev,
- gnome-doc-utils
-Standards-Version: 3.9.4
+ yelp-tools,
+ zlib1g-dev
+Standards-Version: 3.9.8
 Homepage: https://terminatorx.org/
-Vcs-Git: https://terminatorx.org/src/terminatorX.git
-Vcs-Browser: https://lisas.de/git/?p=terminatorX.git
+Vcs-Git: https://terminatorx.org/src/debian.git
+Vcs-Browser: https://lisas.de/git/?p=terminatorX-debian.git
 
 Package: terminatorx
 Architecture: any

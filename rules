@@ -1,15 +1,6 @@
 #!/usr/bin/make -f
 
-DEB_HOST_GNU_TYPE   ?= $(shell dpkg-architecture -qDEB_HOST_GNU_TYPE)
-DEB_BUILD_GNU_TYPE  ?= $(shell dpkg-architecture -qDEB_BUILD_GNU_TYPE)
 DEB_HOST_ARCH_OS    ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
-
-ifneq (,$(findstring debug,$(DEB_BUILD_OPTIONS)))
-	CFLAGS += -g
-endif
-ifeq (,$(findstring nostrip,$(DEB_BUILD_OPTIONS)))
-	INSTALL_PROGRAM += -s
-endif
 
 ifeq (linux,$(DEB_HOST_ARCH_OS))
 	EXTRA_CONFIGURE := --enable-capabilities
@@ -18,10 +9,10 @@ endif
 export DEB_LDFLAGS_MAINT_APPEND=-Wl,--as-needed
 
 %:
-	dh $@ --parallel --with autoreconf
+	dh $@
 
 override_dh_autoreconf:
-	dh_autoreconf --as-needed ./autogen.sh	
+	dh_autoreconf --as-needed
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
@@ -29,13 +20,3 @@ override_dh_auto_configure:
                       $(EXTRA_CONFIGURE) \
                       gnomedatadir=/usr/share/ \
                       gnomepresent=yes
-	find -name '*.xml' -exec perl -i -pe 's,http://www.oasis-open.org/docbook/xml/([^/]+)/docbookx.dtd,/usr/share/sgml/docbook/dtd/xml/\1/docbookx.dtd,' {} \;
-
-override_dh_auto_clean:
-	dh_auto_clean
-	rm -f src/license.c
-	find -name '*.xml' -exec perl -i -pe 's,/usr/share/sgml/docbook/dtd/xml/([^/]+)/docbookx.dtd,http://www.oasis-open.org/docbook/xml/\1/docbookx.dtd,' {} \;
-
-override_dh_install:
-	dh_install
-	find debian/terminatorx -type d -empty -delete

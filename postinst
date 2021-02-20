@@ -15,21 +15,12 @@ umask 022
 db_get terminatorx/suid_bin
 suid="$RET"
 
-if [ -x /usr/sbin/dpkg-statoverride ] ; then
-        if ! dpkg-statoverride --list /usr/bin/terminatorX > /dev/null ; then
-               if [ "$suid" = "false" ] ; then
-                       chmod 0755 /usr/bin/terminatorX
-               elif [ "$suid" = "true" ] ; then
-                       chmod 4755 /usr/bin/terminatorX
-               fi
-       fi
-else
+if ! dpkg-statoverride --list /usr/bin/terminatorX > /dev/null ; then
        if [ "$suid" = "false" ] ; then
                chmod 0755 /usr/bin/terminatorX
        elif [ "$suid" = "true" ] ; then
                chmod 4755 /usr/bin/terminatorX
        fi
-
 fi
 
 db_stop
